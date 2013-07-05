@@ -1,0 +1,33 @@
+{
+  "name": "logvent",
+  "version": "0.1.0",
+  "description": "Analytic-Events logging server",
+  "main": "lib/master.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netroy/logvent.git"
+  },
+  "keywords": [
+    "event",
+    "logging",
+    "websocket",
+    "realtime",
+    "analytics"
+  ],
+  "author": "NetRoY <aditya@netroy.in> (http://netroy.in/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/netroy/logvent/issues"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "jshint": "~2.1.4",
+    "mocha": "~1.12.0"
+  },
+  "dependencies": {
+    "ws": "~0.4.27"
+  }
+}
